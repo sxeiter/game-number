@@ -7,8 +7,7 @@ function recursiveFunction(arr) {
       return recursiveFunction(arr);
     }
   }
-  
-  // Пример использования
+
   const myArray = [];
   const result = recursiveFunction(myArray);
   console.log(result);
